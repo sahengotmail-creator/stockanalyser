@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output (keep structure; ignore timestamped files, keep samples)
+stockbot/reports/[A-Z]*_2[0-9]*.md
+stockbot/reports/[A-Z]*_2[0-9]*.html
+stockbot/reports/[A-Z]*_2[0-9]*.pdf
+stockbot/charts/[A-Z]*_2[0-9]*.png
+reports/[A-Z]*_2[0-9]*.*
+charts/[A-Z]*_2[0-9]*.png
+stockbot/data/*
+data/*
+!stockbot/reports/.gitkeep
+!stockbot/charts/.gitkeep
+!stockbot/data/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env.local
+*.env
